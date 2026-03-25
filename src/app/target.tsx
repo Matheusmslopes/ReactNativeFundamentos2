@@ -11,7 +11,7 @@ export default function Target() {
       <PageHeader title="Meta" subtitle="Economize para alcançar as metas" />
       <View style={{ marginTop: 32, gap: 24 }}>
         <Input label="Nome da meta" placeholder="Ex: Viagem para algum lugar" />
-        <CurrencyInput label="Valor alvo" value={12345} />
+        <CurrencyInput label="Valor alvo (R$)" value={12345} />
         <Button title="Salvar" />
       </View>
     </View>
