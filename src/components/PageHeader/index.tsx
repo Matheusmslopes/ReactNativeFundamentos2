@@ -24,7 +24,7 @@ export function PageHeader({ title, subtitle, rightButton }: Props) {
         </TouchableOpacity>
 
         {rightButton && (
-          <TouchableOpacity>
+          <TouchableOpacity onPress={rightButton.onPress}>
             <MaterialIcons name={rightButton.icon} size={24} color={colors.gray[500]} />
           </TouchableOpacity>
         )}
